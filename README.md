@@ -1,9 +1,12 @@
 PFILE contains the Oracle parameters. This file is processed when an instance is started.
+
 When an Oracle instance is started, the parameter file is searched for in $ORACLE_HOME/dbs (UNIX, Linux) or $ORACLE_HOME/database (Windows) in this order:
+
 1) initSID.ora (PFILE)
 2) PFILE (PFILE)
 
 This is a basic PFILE for Oracle 12c on Windows:
+
 *.audit_file_dest='<$ORACLE_BASE>\admin\<$ORACLE_SID>\adump'
 *.audit_trail='none'
 *.compatible='12.1.0'
