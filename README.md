@@ -8,13 +8,9 @@ When an Oracle instance is started, the parameter file is searched for in $ORACL
 This is a basic PFILE for Oracle 12c on Windows:
 
 *.audit_file_dest='<$ORACLE_BASE>\admin\<$ORACLE_SID>\adump'
-
 *.audit_trail='none'
-
 *.compatible='12.1.0'
-
 *.control_files='<$ORACLE_BASE>\oradata\<$ORACLE_SID>\control01.ctl','<$ORACLE_BASE>\oradata\<$ORACLE_SID>\control02.ctl'
-
 *.db_block_size=8192
 
 *.db_domain=''
