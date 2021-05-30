@@ -1,4 +1,4 @@
-PFILE contains the Oracle parameters. This file is processed when an instance is started.
+<b>PFILE</b> contains the Oracle parameters. This file is processed when an instance is started.
 
 When an Oracle instance is started, the parameter file is searched for in $ORACLE_HOME/dbs (UNIX, Linux) or $ORACLE_HOME/database (Windows) in this order:
 
