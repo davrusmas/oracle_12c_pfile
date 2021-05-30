@@ -33,8 +33,6 @@ This is a basic PFILE for Oracle 12c on Windows:
 
 *.nls_territory='ITALY'
 
-<i>Change <$ORACLE_BASE> and <$ORACLE_SID> according to your installation.</i>
-
 *.open_cursors=300
 
 *.pga_aggregate_target=200m
@@ -46,3 +44,5 @@ This is a basic PFILE for Oracle 12c on Windows:
 *.sga_target=800m
 
 *.undo_tablespace='UNDOTBS1'
+
+<i><b>Don't forget</b> to change <$ORACLE_BASE> and <$ORACLE_SID> in according to your installation.</i>
